@@ -4,6 +4,8 @@ Forked from [SwiftUI Matched Geometry Effect]() by Murat ÖZTÜRK.
 
 An example iPhone, iPad, and Mac app that demonstrates how to use SwiftUI’s [matchedGeometryEffect()](https://developer.apple.com/documentation/swiftui/view/matchedgeometryeffect(id:in:properties:anchor:issource:)) view modifier to animate transitions.
 
+![App Screen Recording](https://github.com/DaveBatton/SwiftUI-Matched-Geometry-Effect/assets/38357/b88457d1-7b2d-4b92-ac8f-621df3b0c5de)
+
 After months of trying to get Matched Geometry Effect working properly in one of my personal projects, I ran across Murat’s public project which animated SwiftUI views exactly the way I wanted my project to animate: from a list view to a detail view.
 
 There are very few Matched Geometry Effect examples that animate multi-view (text, pictures, backgrounds, shapes) list views to detail views. Most only work on a single shape or image, or don’t transition from list to detail views. Those that did seemed to be overly complex.
@@ -55,6 +57,7 @@ Actually I made a lot of changes...
 * Improved the sample data descriptions (was just “Description”).
 * Added the required image attribution for the sample images to the “Data.swift” file and this ReadMe.
 
+---
 
 ## 🐞 Issues
 
@@ -76,6 +79,8 @@ I also get this warning if the Lorem Ipsum text is too long:
 
 I wasn’t able to figure out what was causing this, so I just used less Lorem Ipsum text for the sample details field. It still seems to be too long on macOS, but not on iOS. Let me know if you know what’s causing this.
 
+---
+
 ## 👨 Original Sample App Developed By 
 
 <img src="https://avatars.githubusercontent.com/u/62841905?s=400&u=6b1f97cf6a3dfe668719000f9686f5fe861f273a&v=4" width="70" align="left">
@@ -83,6 +88,8 @@ I wasn’t able to figure out what was causing this, so I just used less Lorem I
 **Murat ÖZTÜRK**
 
 [![Linkedin](https://img.shields.io/badge/-linkedin-grey?logo=linkedin)](https://www.linkedin.com/in/murat-%C3%B6zt%C3%BCrk-7a9306217/)
+
+---
 
 ## 📄 License
 
